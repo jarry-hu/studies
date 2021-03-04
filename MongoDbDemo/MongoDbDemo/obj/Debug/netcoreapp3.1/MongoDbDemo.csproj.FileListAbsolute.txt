@@ -1,0 +1,4 @@
+E:\.github\studies\MongoDbDemo\MongoDbDemo\obj\Debug\netcoreapp3.1\MongoDbDemo.csprojAssemblyReference.cache
+E:\.github\studies\MongoDbDemo\MongoDbDemo\obj\Debug\netcoreapp3.1\MongoDbDemo.AssemblyInfoInputs.cache
+E:\.github\studies\MongoDbDemo\MongoDbDemo\obj\Debug\netcoreapp3.1\MongoDbDemo.AssemblyInfo.cs
+E:\.github\studies\MongoDbDemo\MongoDbDemo\obj\Debug\netcoreapp3.1\MongoDbDemo.csproj.CoreCompileInputs.cache

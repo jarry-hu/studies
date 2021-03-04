@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Chapter2\Chapter2.csproj" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.12.0" />
+    <PackageReference Include="NUnit" Version="3.13.1" />
   </ItemGroup>
 
 </Project>

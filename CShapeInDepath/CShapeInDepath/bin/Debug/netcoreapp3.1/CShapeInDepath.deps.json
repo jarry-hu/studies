@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CShapeInDepath/1.0.0": {
+        "dependencies": {
+          "Chapter2": "1.0.0"
+        },
+        "runtime": {
+          "CShapeInDepath.dll": {}
+        }
+      },
+      "Chapter2/1.0.0": {
+        "runtime": {
+          "Chapter2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CShapeInDepath/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
