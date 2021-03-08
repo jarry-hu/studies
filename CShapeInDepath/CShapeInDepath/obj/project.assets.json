@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/Chapter2.dll": {}
         }
+      },
+      "Chapter3/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Chapter3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter3.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../Chapter2/Chapter2.csproj",
       "msbuildProject": "../Chapter2/Chapter2.csproj"
+    },
+    "Chapter3/1.0.0": {
+      "type": "project",
+      "path": "../Chapter3/Chapter3.csproj",
+      "msbuildProject": "../Chapter3/Chapter3.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Chapter2 >= 1.0.0"
+      "Chapter2 >= 1.0.0",
+      "Chapter3 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -61,6 +77,9 @@
           "projectReferences": {
             "E:\\.github\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj": {
               "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj"
+            },
+            "E:\\.github\\studies\\CShapeInDepath\\Chapter3\\Chapter3.csproj": {
+              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter3\\Chapter3.csproj"
             }
           }
         }

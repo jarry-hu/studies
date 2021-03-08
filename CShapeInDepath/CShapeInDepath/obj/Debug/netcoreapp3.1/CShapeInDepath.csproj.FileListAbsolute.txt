@@ -14,3 +14,5 @@ E:\.github\studies\CShapeInDepath\CShapeInDepath\obj\Debug\netcoreapp3.1\CShapeI
 E:\.github\studies\CShapeInDepath\CShapeInDepath\obj\Debug\netcoreapp3.1\CShapeInDepath.dll
 E:\.github\studies\CShapeInDepath\CShapeInDepath\obj\Debug\netcoreapp3.1\CShapeInDepath.pdb
 E:\.github\studies\CShapeInDepath\CShapeInDepath\obj\Debug\netcoreapp3.1\CShapeInDepath.genruntimeconfig.cache
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter3.dll
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter3.pdb

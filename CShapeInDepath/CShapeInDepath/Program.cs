@@ -1,4 +1,5 @@
 ﻿using Chapter2;
+using Chapter3;
 using System;
 using System.Collections.Generic;
 
@@ -62,11 +63,49 @@ namespace CShapeInDepath
             //}
 
             // 反编译迭代器
-            var enumerable = Enumerable.GenerateIntegers(10);
-            foreach (var item in enumerable)
-            {
+            //var enumerable = Enumerable.GenerateIntegers(10);
+            //foreach (var item in enumerable)
+            //{a'd'sa's'd'fa's'd'fa's'f
 
+            //}
+            #endregion
+
+            #region Chapter3
+            // Captured Variables
+
+            //var demo = new CapturedVariablesDemo();
+            //Action<string> action = demo.CreateAction("method argument");
+            //action("lambda argument");
+
+            // 测试 lamda反编译
+            int value = 5;
+            for (int i = 0; i < 6; i++)
+            {
+                Action<int> act = test =>
+                {
+                    value = test;
+                    Console.WriteLine(test);
+                    int h = 1;
+                    Console.WriteLine(h);
+                };
             }
+            value = 6;
+            Console.WriteLine(value);
+            //Action<int> act1 = test =>
+            //{
+            //    value = test;
+            //    Console.WriteLine(test);
+            //    int h = 2;
+            //    Console.WriteLine(h);
+            //};
+            //act.Invoke(3);
+            //act.Invoke(36);
+            //act1.Invoke(4);
+
+
+//            Expression<Func<int, int, int>> adder = (x, y) => x + y;
+//            Func<int, int, int> executableAdder = adder.Compile(); < ------将表达式树编译成委托
+//Console.WriteLine(executableAdder(2, 3));
             #endregion
 
             Console.Read();

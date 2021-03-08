@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "CShapeInDepath/1.0.0": {
         "dependencies": {
-          "Chapter2": "1.0.0"
+          "Chapter2": "1.0.0",
+          "Chapter3": "1.0.0"
         },
         "runtime": {
           "CShapeInDepath.dll": {}
@@ -17,6 +18,11 @@
       "Chapter2/1.0.0": {
         "runtime": {
           "Chapter2.dll": {}
+        }
+      },
+      "Chapter3/1.0.0": {
+        "runtime": {
+          "Chapter3.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "Chapter2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter3/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
