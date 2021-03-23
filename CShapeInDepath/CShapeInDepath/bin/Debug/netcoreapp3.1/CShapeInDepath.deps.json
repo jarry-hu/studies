@@ -9,7 +9,11 @@
       "CShapeInDepath/1.0.0": {
         "dependencies": {
           "Chapter2": "1.0.0",
-          "Chapter3": "1.0.0"
+          "Chapter3": "1.0.0",
+          "Chapter4": "1.0.0",
+          "Chapter5": "1.0.0",
+          "Chapter6": "1.0.0",
+          "Chapter7": "1.0.0"
         },
         "runtime": {
           "CShapeInDepath.dll": {}
@@ -23,6 +27,26 @@
       "Chapter3/1.0.0": {
         "runtime": {
           "Chapter3.dll": {}
+        }
+      },
+      "Chapter4/1.0.0": {
+        "runtime": {
+          "Chapter4.dll": {}
+        }
+      },
+      "Chapter5/1.0.0": {
+        "runtime": {
+          "Chapter5.dll": {}
+        }
+      },
+      "Chapter6/1.0.0": {
+        "runtime": {
+          "Chapter6.dll": {}
+        }
+      },
+      "Chapter7/1.0.0": {
+        "runtime": {
+          "Chapter7.dll": {}
         }
       }
     }
@@ -39,6 +63,26 @@
       "sha512": ""
     },
     "Chapter3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Chapter7/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

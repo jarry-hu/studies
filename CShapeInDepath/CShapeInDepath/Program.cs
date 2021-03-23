@@ -1,7 +1,11 @@
 ﻿using Chapter2;
 using Chapter3;
+using Chapter6;
+using Chapter7;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
+using MDA = Chapter7.CallerAttribute.MemberDescriptionAttribute;
 
 namespace CShapeInDepath
 {
@@ -12,9 +16,36 @@ namespace CShapeInDepath
             //Chapter2();
             //Chapter3();
             //Chapter4();
-            Chapter5();
+            //Chapter5();
+            //Chapter6();
+            //Chapter7();
 
             Console.Read();
+        }
+        private static void Chapter7()
+        {
+            CallerAttribute.ShowInfo();
+            CallerAttribute.ShowInfo("Java",10);
+
+            dynamic message = "Some message";
+            CallerAttribute.ShowLine(message); //< ------简单的动态调用，行号为0
+            CallerAttribute.ShowLine((string)message); //< ------第1种迂回方案：使用类型转换消除动态类型
+            CallerAttribute.ShowLine(message, CallerAttribute.GetLineNumber()); //< ------第2种迂回方案：使用帮助方法显式地提供行号信息
+
+            var typeInfo = typeof(CallerAttribute.CallerNameInAttribute).GetTypeInfo();
+            var methodInfo = typeInfo.GetDeclaredMethod("Method");
+            var paramInfo = methodInfo.GetParameters()[0];
+            var typeParamInfo =
+                methodInfo.GetGenericArguments()[0].GetTypeInfo();
+            Console.WriteLine(typeInfo.GetCustomAttribute<MDA>());
+            Console.WriteLine(methodInfo.GetCustomAttribute<MDA>());
+            Console.WriteLine(paramInfo.GetCustomAttribute<MDA>());
+            Console.WriteLine(typeParamInfo.GetCustomAttribute<MDA>());
+        }
+
+        private static void Chapter6()
+        {
+            TaskTest.AwaitInLoop(TimeSpan.FromSeconds(10));
         }
 
         private static void Chapter5()
@@ -150,7 +181,6 @@ namespace CShapeInDepath
 
             //}
         }
-
 
     }
 }

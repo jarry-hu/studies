@@ -1,0 +1,9 @@
+E:\.github\studies\CShapeInDepath\Chapter7\bin\Debug\netcoreapp3.1\Chapter7.deps.json
+E:\.github\studies\CShapeInDepath\Chapter7\bin\Debug\netcoreapp3.1\Chapter7.dll
+E:\.github\studies\CShapeInDepath\Chapter7\bin\Debug\netcoreapp3.1\Chapter7.pdb
+E:\.github\studies\CShapeInDepath\Chapter7\obj\Debug\netcoreapp3.1\Chapter7.csprojAssemblyReference.cache
+E:\.github\studies\CShapeInDepath\Chapter7\obj\Debug\netcoreapp3.1\Chapter7.AssemblyInfoInputs.cache
+E:\.github\studies\CShapeInDepath\Chapter7\obj\Debug\netcoreapp3.1\Chapter7.AssemblyInfo.cs
+E:\.github\studies\CShapeInDepath\Chapter7\obj\Debug\netcoreapp3.1\Chapter7.csproj.CoreCompileInputs.cache
+E:\.github\studies\CShapeInDepath\Chapter7\obj\Debug\netcoreapp3.1\Chapter7.dll
+E:\.github\studies\CShapeInDepath\Chapter7\obj\Debug\netcoreapp3.1\Chapter7.pdb

@@ -21,6 +21,46 @@
         "runtime": {
           "bin/placeholder/Chapter3.dll": {}
         }
+      },
+      "Chapter4/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Chapter4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter4.dll": {}
+        }
+      },
+      "Chapter5/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Chapter5.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter5.dll": {}
+        }
+      },
+      "Chapter6/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Chapter6.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter6.dll": {}
+        }
+      },
+      "Chapter7/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Chapter7.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter7.dll": {}
+        }
       }
     }
   },
@@ -34,12 +74,36 @@
       "type": "project",
       "path": "../Chapter3/Chapter3.csproj",
       "msbuildProject": "../Chapter3/Chapter3.csproj"
+    },
+    "Chapter4/1.0.0": {
+      "type": "project",
+      "path": "../Chapter4/Chapter4.csproj",
+      "msbuildProject": "../Chapter4/Chapter4.csproj"
+    },
+    "Chapter5/1.0.0": {
+      "type": "project",
+      "path": "../Chapter5/Chapter5.csproj",
+      "msbuildProject": "../Chapter5/Chapter5.csproj"
+    },
+    "Chapter6/1.0.0": {
+      "type": "project",
+      "path": "../Chapter6/Chapter6.csproj",
+      "msbuildProject": "../Chapter6/Chapter6.csproj"
+    },
+    "Chapter7/1.0.0": {
+      "type": "project",
+      "path": "../Chapter7/Chapter7.csproj",
+      "msbuildProject": "../Chapter7/Chapter7.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Chapter2 >= 1.0.0",
-      "Chapter3 >= 1.0.0"
+      "Chapter3 >= 1.0.0",
+      "Chapter4 >= 1.0.0",
+      "Chapter5 >= 1.0.0",
+      "Chapter6 >= 1.0.0",
+      "Chapter7 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -80,6 +144,18 @@
             },
             "E:\\.github\\studies\\CShapeInDepath\\Chapter3\\Chapter3.csproj": {
               "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter3\\Chapter3.csproj"
+            },
+            "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj": {
+              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj"
+            },
+            "E:\\.github\\studies\\CShapeInDepath\\Chapter5\\Chapter5.csproj": {
+              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter5\\Chapter5.csproj"
+            },
+            "E:\\.github\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj": {
+              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj"
+            },
+            "E:\\.github\\studies\\CShapeInDepath\\Chapter7\\Chapter7.csproj": {
+              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter7\\Chapter7.csproj"
             }
           }
         }

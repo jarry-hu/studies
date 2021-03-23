@@ -16,3 +16,11 @@ E:\.github\studies\CShapeInDepath\CShapeInDepath\obj\Debug\netcoreapp3.1\CShapeI
 E:\.github\studies\CShapeInDepath\CShapeInDepath\obj\Debug\netcoreapp3.1\CShapeInDepath.genruntimeconfig.cache
 E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter3.dll
 E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter3.pdb
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter4.dll
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter5.dll
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter6.dll
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter4.pdb
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter5.pdb
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter6.pdb
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter7.dll
+E:\.github\studies\CShapeInDepath\CShapeInDepath\bin\Debug\netcoreapp3.1\Chapter7.pdb
