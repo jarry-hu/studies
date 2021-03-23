@@ -6,3 +6,4 @@ E:\.github\studies\CShapeInDepath\Chapter3\obj\Debug\netstandard2.0\Chapter3.Ass
 E:\.github\studies\CShapeInDepath\Chapter3\obj\Debug\netstandard2.0\Chapter3.csproj.CoreCompileInputs.cache
 E:\.github\studies\CShapeInDepath\Chapter3\obj\Debug\netstandard2.0\Chapter3.dll
 E:\.github\studies\CShapeInDepath\Chapter3\obj\Debug\netstandard2.0\Chapter3.pdb
+E:\.github\studies\CShapeInDepath\Chapter3\obj\Debug\netstandard2.0\Chapter3.csprojAssemblyReference.cache

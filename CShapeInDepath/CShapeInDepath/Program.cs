@@ -9,7 +9,88 @@ namespace CShapeInDepath
     {
         static void Main(string[] args)
         {
-            #region Chapter2
+            //Chapter2();
+            //Chapter3();
+            //Chapter4();
+            Chapter5();
+
+            Console.Read();
+        }
+
+        private static void Chapter5()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void Chapter4()
+        {
+            //dynamic d = new object();
+            //int invalid1 = "text".Substring(0, 1, 2, d);// < ------不存在接收4个参数的String.Substring方法
+            //bool invalid2 = string.Equals<int>("foo", d);// < ------不存在泛型的String.Equals
+            //string invalid3 = new string(d, "broken");// < ------不存在接收两个参数且第2个参数为字符串类型的String构造器
+            //char invalid4 = "text"[d, d];// < ------不存在接收两个参数的String索引器
+            //                             //编译器能够（但并不总是）得知上述特定例子会在运行
+
+            // ---看不懂
+            //dynamic database = new Database(connectionString);
+            //var books = database.Books.SearchByAuthor("Holly Webb");
+            //foreach (var book in books)
+
+
+            // 以下声明均非法：
+            //    class DynamicSequence : IEnumerable<dynamic>
+            //class DynamicListSequence : IEnumerable<List<dynamic>>
+            //class DynamicConstraint1<T> : IEnumerable<T> where T : dynamic
+            //class DynamicConstraint2<T> : IEnumerable<T> where T : List<dynamic>
+            // 以下声明均合法：
+            //class DynamicList : List<dynamic>
+            //class ListOfDynamicSequences : List<IEnumerable<dynamic>>
+            //IEnumerable<dynamic> x = new List<dynamic>{ 1, 0.5 }.Select(x => x* 2);
+
+        }
+        /// <summary>
+        /// 主要讲了Linq,收获最多的还是lamda的编译原理
+        /// </summary>
+        private static void Chapter3()
+        {
+            // Captured Variables
+
+            //var demo = new CapturedVariablesDemo();
+            //Action<string> action = demo.CreateAction("method argument");
+            //action("lambda argument");
+
+            // 测试 lamda反编译
+            //int value = 5;
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    Action<int> act = test =>
+            //    {
+            //        value = test;
+            //        Console.WriteLine(test);
+            //        int h = 1;
+            //        Console.WriteLine(h);
+            //    };
+            //}
+            //value = 6;
+            //Console.WriteLine(value);
+            //Action<int> act1 = test =>
+            //{
+            //    value = test;
+            //    Console.WriteLine(test);
+            //    int h = 2;
+            //    Console.WriteLine(h);
+            //};
+            //act.Invoke(3);
+            //act.Invoke(36);
+            //act1.Invoke(4);
+
+
+            //            Expression<Func<int, int, int>> adder = (x, y) => x + y;
+            //            Func<int, int, int> executableAdder = adder.Compile(); < ------将表达式树编译成委托
+            //Console.WriteLine(executableAdder(2, 3));
+        }
+        private static void Chapter2()
+        {
             // 测试泛型
             //List<int> numbers = new List<int>();
             //numbers.Add(5);
@@ -68,47 +149,8 @@ namespace CShapeInDepath
             //{a'd'sa's'd'fa's'd'fa's'f
 
             //}
-            #endregion
-
-            #region Chapter3
-            // Captured Variables
-
-            //var demo = new CapturedVariablesDemo();
-            //Action<string> action = demo.CreateAction("method argument");
-            //action("lambda argument");
-
-            // 测试 lamda反编译
-            int value = 5;
-            for (int i = 0; i < 6; i++)
-            {
-                Action<int> act = test =>
-                {
-                    value = test;
-                    Console.WriteLine(test);
-                    int h = 1;
-                    Console.WriteLine(h);
-                };
-            }
-            value = 6;
-            Console.WriteLine(value);
-            //Action<int> act1 = test =>
-            //{
-            //    value = test;
-            //    Console.WriteLine(test);
-            //    int h = 2;
-            //    Console.WriteLine(h);
-            //};
-            //act.Invoke(3);
-            //act.Invoke(36);
-            //act1.Invoke(4);
-
-
-//            Expression<Func<int, int, int>> adder = (x, y) => x + y;
-//            Func<int, int, int> executableAdder = adder.Compile(); < ------将表达式树编译成委托
-//Console.WriteLine(executableAdder(2, 3));
-            #endregion
-
-            Console.Read();
         }
+
+
     }
 }
