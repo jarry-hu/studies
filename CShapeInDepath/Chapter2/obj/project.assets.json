@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.github\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj",
+      "projectUniqueName": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj",
       "projectName": "Chapter2",
-      "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj",
+      "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj",
       "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-      "outputPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter2\\obj\\",
+      "outputPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

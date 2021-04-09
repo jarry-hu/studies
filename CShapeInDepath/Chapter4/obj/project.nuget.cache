@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FUtKRyp/1Tw/fpllF5U6PtTY1A4n0xEoWISbJsgtQEyLL+Ri8E17tZi0t9sF8rXbtwudHXZiJ5tlFWurdGb7IQ==",
+  "dgSpecHash": "k6ksG8UsvoOtfYWwBxv5ioZT7leME6JRTCfhEEJusSdamI9SgNJ35P9NElDuUOtr0haDmI7xWcYPB+HXbWfCKg==",
   "success": true,
-  "projectFilePath": "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj",
+  "projectFilePath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JS\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\JS\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

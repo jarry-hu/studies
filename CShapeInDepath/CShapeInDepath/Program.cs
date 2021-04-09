@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using MDA = Chapter7.CallerAttribute.MemberDescriptionAttribute;
+using static Chapter10.Entrance;
 
 namespace CShapeInDepath
 {
@@ -20,6 +21,7 @@ namespace CShapeInDepath
             //Chapter6();
             //Chapter7();
 
+            Chapter10Main();
             Console.Read();
         }
         private static void Chapter7()

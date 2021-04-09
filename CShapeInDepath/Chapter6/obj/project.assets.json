@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.github\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj",
+      "projectUniqueName": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj",
       "projectName": "Chapter6",
-      "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj",
+      "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj",
       "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-      "outputPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter6\\obj\\",
+      "outputPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

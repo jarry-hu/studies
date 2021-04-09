@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj": {}
+    "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj": {}
   },
   "projects": {
-    "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj": {
+    "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj",
+        "projectUniqueName": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj",
         "projectName": "Chapter4",
-        "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj",
+        "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj",
         "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-        "outputPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\obj\\",
+        "outputPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

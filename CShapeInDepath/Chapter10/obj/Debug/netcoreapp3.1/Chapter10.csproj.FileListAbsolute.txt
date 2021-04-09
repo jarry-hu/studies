@@ -1,0 +1,9 @@
+E:\.github\jarry-hu\studies\CShapeInDepath\Chapter10\bin\Debug\netcoreapp3.1\Chapter10.deps.json
+E:\.github\jarry-hu\studies\CShapeInDepath\Chapter10\bin\Debug\netcoreapp3.1\Chapter10.dll
+E:\.github\jarry-hu\studies\CShapeInDepath\Chapter10\bin\Debug\netcoreapp3.1\Chapter10.pdb
+E:\.github\jarry-hu\studies\CShapeInDepath\Chapter10\obj\Debug\netcoreapp3.1\Chapter10.csprojAssemblyReference.cache
+E:\.github\jarry-hu\studies\CShapeInDepath\Chapter10\obj\Debug\netcoreapp3.1\Chapter10.AssemblyInfoInputs.cache
+E:\.github\jarry-hu\studies\CShapeInDepath\Chapter10\obj\Debug\netcoreapp3.1\Chapter10.AssemblyInfo.cs
+E:\.github\jarry-hu\studies\CShapeInDepath\Chapter10\obj\Debug\netcoreapp3.1\Chapter10.csproj.CoreCompileInputs.cache
+E:\.github\jarry-hu\studies\CShapeInDepath\Chapter10\obj\Debug\netcoreapp3.1\Chapter10.dll
+E:\.github\jarry-hu\studies\CShapeInDepath\Chapter10\obj\Debug\netcoreapp3.1\Chapter10.pdb

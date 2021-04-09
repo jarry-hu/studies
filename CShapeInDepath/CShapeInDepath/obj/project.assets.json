@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Chapter10/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Chapter10.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chapter10.dll": {}
+        }
+      },
       "Chapter2/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -65,6 +75,11 @@
     }
   },
   "libraries": {
+    "Chapter10/1.0.0": {
+      "type": "project",
+      "path": "../Chapter10/Chapter10.csproj",
+      "msbuildProject": "../Chapter10/Chapter10.csproj"
+    },
     "Chapter2/1.0.0": {
       "type": "project",
       "path": "../Chapter2/Chapter2.csproj",
@@ -98,6 +113,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Chapter10 >= 1.0.0",
       "Chapter2 >= 1.0.0",
       "Chapter3 >= 1.0.0",
       "Chapter4 >= 1.0.0",
@@ -113,11 +129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.github\\studies\\CShapeInDepath\\CShapeInDepath\\CShapeInDepath.csproj",
+      "projectUniqueName": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\CShapeInDepath\\CShapeInDepath.csproj",
       "projectName": "CShapeInDepath",
-      "projectPath": "E:\\.github\\studies\\CShapeInDepath\\CShapeInDepath\\CShapeInDepath.csproj",
+      "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\CShapeInDepath\\CShapeInDepath.csproj",
       "packagesPath": "C:\\Users\\JS\\.nuget\\packages\\",
-      "outputPath": "E:\\.github\\studies\\CShapeInDepath\\CShapeInDepath\\obj\\",
+      "outputPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\CShapeInDepath\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -139,23 +155,26 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\.github\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj": {
-              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj"
+            "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter10\\Chapter10.csproj": {
+              "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter10\\Chapter10.csproj"
             },
-            "E:\\.github\\studies\\CShapeInDepath\\Chapter3\\Chapter3.csproj": {
-              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter3\\Chapter3.csproj"
+            "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj": {
+              "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter2\\Chapter2.csproj"
             },
-            "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj": {
-              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj"
+            "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter3\\Chapter3.csproj": {
+              "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter3\\Chapter3.csproj"
             },
-            "E:\\.github\\studies\\CShapeInDepath\\Chapter5\\Chapter5.csproj": {
-              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter5\\Chapter5.csproj"
+            "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj": {
+              "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter4\\Chapter4.csproj"
             },
-            "E:\\.github\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj": {
-              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj"
+            "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter5\\Chapter5.csproj": {
+              "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter5\\Chapter5.csproj"
             },
-            "E:\\.github\\studies\\CShapeInDepath\\Chapter7\\Chapter7.csproj": {
-              "projectPath": "E:\\.github\\studies\\CShapeInDepath\\Chapter7\\Chapter7.csproj"
+            "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj": {
+              "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter6\\Chapter6.csproj"
+            },
+            "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter7\\Chapter7.csproj": {
+              "projectPath": "E:\\.github\\jarry-hu\\studies\\CShapeInDepath\\Chapter7\\Chapter7.csproj"
             }
           }
         }
