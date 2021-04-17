@@ -1,0 +1,44 @@
+###  2021/4/18
+
+- querulous 抱怨的，发牢骚的 adj. | query （过分质疑-发牢骚）
+-  rote 死记硬背 n. | root 根（老树根，思维老化）
+- contrive 设计 v.| con+try
+- wide-ranging 广泛的 adj.
+- baffle 令人困惑的 v |拜服 baffling
+- allegory 象征；寓言 | alle 艾莉 gory 格林
+- forthright 直接的;坦率的 | forth = 向前,right正好
+- aver 断言 |一个味儿|avert 避免，防止，转移 
+- nefarious 邪恶的，恶毒的 | ne=你，farious=furious 愤怒的
+- proselytize 极力劝诱某人加入|跳槽
+- resent 怨恨，憎恨 |re=反 sent 同情，情感 |consent 同意
+- heresy 异端 | here = 这里 sy = 死
+- spontaneous 自发的 | simultaneous 同时的
+- impersonal 非主观的 | personal 主管的
+- exceptional 不寻常的；杰出的|exceptionable 令人反感的
+- tempestuous 暴乱的，剧烈的|tem = temperature 温度 pest 害虫
+- finicky 过分讲究的 |fine 精细的 picky 挑剔的
+- amass v. 聚集，积累 | mass
+- patronize 支持，高人一等的态度去对待 | patronizing
+- avert 转移，防止
+- harrow 使苦恼
+- compile 汇编
+- ritualize 使...程式化 | ritualize
+- arboreal 树木的，树栖的 | born 出生
+- satire 讽刺 | 傻胎儿
+- volition 意志力 | 我能行
+- innate 天生的 
+- complimentary 赞美的 | complement 补充
+- loathe 讨厌 | loath 不情愿的
+- exhaustive 全面的 | exhausting 使人筋疲力尽的
+- poignant 令人沉痛的 
+- captivate 迷住 | capture 捕获，获得
+- don 穿上
+- milieu 社会背景，周围环境
+- portend 预言
+- regimen 政体
+- haphazard 随意的，随机的  | hazard 危险
+- vacuous 空洞的
+- external | eternal永恒的
+- tractable 驯服的，温顺的 | tract = 拉 
+- ponderous 笨重的
+
